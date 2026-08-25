@@ -8,4 +8,6 @@
 
 За основу ношения в рукха рельсотрона был взяты текстурки импульсного карабинаMK2.
 По Меркам больше одного тайла.
+
+
 <img width="389" height="153" alt="BBC58239-DCEE-4096-BA41-88BBB745E786" src="https://github.com/user-attachments/assets/4fc03476-5ed6-44df-9d5a-dd3b5b6fa895" />

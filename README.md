@@ -14,7 +14,7 @@
 
 Этапы загрузки прототипа:
 1. Скачиваем railgun.rsi и railgun.yaml обязательно вытащив railgunfm.rsi из папки railgun.rsi оставив мету и основную текстуру рельсотрона.
-2. railgun.rsi, railgunfm.rsi переносим в папку лаунчера space station 14 в C:\Users\egora_onubl7u\AppData\Roaming\Space Station 14\data\UploadFolder как на фото
+2. railgun.rsi, railgunfm.rsi переносим в папку лаунчера space station 14 в \AppData\Roaming\Space Station 14\data\UploadFolder как на фото
 <img width="700" height="162" alt="{25772AF6-6228-47F1-AE39-25C07098CA60}" src="https://github.com/user-attachments/assets/f8c5313e-fb27-4cde-9331-7b97326b2ce1" />
 
 4. Запустите локальный сервер или зайдите на сервер в вызовите консоль на ё у всех по разному а конкретно где пишется adminwho, прописываем uploadfolder (название файлы) у нас это uploadfolder railgun.rsi и uploadfolder railgunfm.rsi.

@@ -1,0 +1,45 @@
+# ========== ОРУЖИЕ ==========
+- type: entity
+  id: WeaponRailgun
+  parent: [ BaseWeaponBattery, BaseGunWieldable ]
+  name: Рельсотрон
+  description: Экспериментальная электромагнитная пушка. Перезарядка между выстрелами 10 секунд.
+  components:
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,4,1
+    sprite: /Uploaded/railgunfm.rsi # текструки в руках
+  - type: Sprite
+    sprite: /Uploaded/railgun.rsi # текстурка на полу
+    layers:
+    - state: Sprite-01
+      map: [ "enum.GunVisualLayers.Base" ]
+  - type: Gun
+    fireRate: 0.5                   # выстрел раз в 5 секунд
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg
+  - type: GunRequiresWield
+  - type: BatteryAmmoProvider
+    proto: BulletRailgunPulse       # снаряд
+    fireCost: 500            # 500 энергии за выстрел
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+
+# ========== СНАРЯД ==========
+- type: entity
+  id: BulletRailgunPulse
+  parent: BaseBullet
+  name: рельсотронный импульс
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 95                # урон снаряда
+        Heat: 5        

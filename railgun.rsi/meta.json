@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Made by pyfya (discord) for Space Station 14 server Мёртвый Космос",
+  "size": {
+    "x": 124,
+    "y": 64
+  },
+  "states": [
+    {
+        "name": "Sprite-01"
+    }
+  ]
+}
